@@ -1,0 +1,29 @@
+<h2>Editando Carro com ID {{idCarro}}</h2>
+<form action="/ediReq/{{idCarro}}" method="post">
+    <div class="mb-3">
+        <label class="form-label">nomeDoEvento</label>
+        <input class="form-control" type="text" name="nomeDoEvento" value="{{nomeDoEvento}}">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">numeroDeIngressosDisponiveis</label>
+        <input class="form-control" type="text" name="numeroDeIngressosDisponiveis" value="{{numeroDeIngressosDisponiveis}}">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">valorDoIngresso</label>
+        <input class="form-control" type="text" name="valorDoIngresso" value="{{valorDoIngresso}}">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">data</label>
+        <input class="form-control" type="text" name="data" value="{{data}}">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">horario</label>
+        <input class="form-control" type="text" name="horario" value="{{horario}}">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">local</label>
+        <input class="form-control" type="text" name="local" value="{{local}}">
+    </div>
+  
+    <button type="submit" class="btn btn-primary">Atualizar</button>
+</form>

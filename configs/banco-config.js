@@ -1,6 +1,6 @@
 var sequelize = require("sequelize")
 
-var conexao = new sequelize("progweb","adminfq","12345678Fq@",{
+var conexao = new sequelize("progweb","adminfq","12345678Fq",{
     host: "progweb.mysql.database.azure.com",
     dialect: "mysql"
 })
